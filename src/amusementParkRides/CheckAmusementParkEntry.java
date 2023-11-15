@@ -9,7 +9,7 @@ public class CheckAmusementParkEntry {
 	double peopleHeight;
 
 	void displayAllowedToRide() {
-		if (peopleHeight > 90 && peopleHeight <= 200) {// if the code corresponding to the if block executed only if the
+		if (peopleHeight >=90 && peopleHeight <= 200) {// if the code corresponding to the if block executed only if the
 														// condition satisfied//
 			System.out.println(name + " can ride:"); // if the condition satisfied it will printout
 		} else {// all other scenario //
@@ -19,3 +19,4 @@ public class CheckAmusementParkEntry {
 	}
 
 }
+//data used to check=89,89.9,90,91,199,200,201//
